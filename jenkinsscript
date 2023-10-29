@@ -1,1 +1,4 @@
-echo 'script running'
+cd Fast-Flow-Market-Fe
+git pull origin main
+docker compose down
+docker compose up
